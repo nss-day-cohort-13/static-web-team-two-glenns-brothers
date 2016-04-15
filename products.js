@@ -1,6 +1,7 @@
+// Product array //
+var ballList = [
 
-var products [
-
+  // Objects with Keys in array //
   {
     name: "Baseball",
     description: "Ball used for playing baseball",
@@ -56,4 +57,20 @@ var products [
     price: "$9.99 (for 3)",
     img: "images/tennis.png"
   }
-]
+];
+
+// Linking up with HTTML //
+var ballKeys = document.getElementById("ballInfo");
+
+// For loop to output product information //
+for (var i = 0; i < ballList.length; i++) {
+  var currentBall = ballList[i];
+
+  ballKeys.innerHTML +=
+  "<div>" +
+    "<h2>" + currentBall.name + "</h2>" +
+    "<img src=\"" + currentBall.img + "\">" +
+    "<p>" + currentBall.description + "</p>" +
+    "<p>" + currentBall.price + "</p>" +
+  "</div>";
+}
