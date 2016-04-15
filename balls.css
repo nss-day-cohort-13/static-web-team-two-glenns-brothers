@@ -53,8 +53,18 @@ article {
 
 }
 
+/* Card for Products Page */
 
-
+div.card {
+  width: 30%;
+  height: auto;
+  vertical-align: top;
+  border: 1px solid blue;
+  display: inline-block;
+  margin: 25px;
+  text-align: center;
+  background-color: lightblue;
+}
 
 
 /* Footer */
