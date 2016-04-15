@@ -45,7 +45,14 @@ article {
   border: 1px solid blue;
   margin: 15px auto;
   background-color: #a5944b;
+}
 
+article.body {
+  text-align: center;
+}
+
+img.pics {
+  padding: 1rem;
 }
 
 /* Card for Products Page */
