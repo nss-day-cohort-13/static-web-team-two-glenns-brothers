@@ -70,7 +70,7 @@ for (var i = 0; i < ballList.length; i++) {
   "<div>" +
     "<h2>" + currentBall.name + "</h2>" +
     "<img src=\"" + currentBall.img + "\">" +
-    "<p>" + currentBall.description + "</p>" +
-    "<p>" + currentBall.price + "</p>" +
+    "<h4>About: </h4>" + "<p>" + currentBall.description + "</p>" +
+    "<h4>Price: </h4>" + "<p>" + currentBall.price + "</p>" +
   "</div>";
 }
