@@ -67,10 +67,10 @@ for (var i = 0; i < ballList.length; i++) {
   var currentBall = ballList[i];
 
   ballKeys.innerHTML +=
-  "<div>" +
+  "<div class='card'>" +
     "<h2>" + currentBall.name + "</h2>" +
     "<img src=\"" + currentBall.img + "\">" +
-    "<h4>About: </h4>" + "<p>" + currentBall.description + "</p>" +
-    "<h4>Price: </h4>" + "<p>" + currentBall.price + "</p>" +
+    "<h3>About: </h3>" + "<p>" + currentBall.description + "</p>" +
+    "<h3>Price: </h3>" + "<p>" + currentBall.price + "</p>" +
   "</div>";
 }
