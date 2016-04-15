@@ -21,6 +21,7 @@ nav {
   width: 100%;
   display: inline-block;
   text-align: center;
+  border: 1px solid blue;
 }
 
 nav ul {
@@ -46,13 +47,14 @@ nav ul li {
 
 article {
   max-width: 90%;
-  height: 480px;
+  height: auto;
   border: 1px solid blue;
   margin: 15px auto;
   background-color: #a5944b;
 
 }
 
+<<<<<<< HEAD
 /* Card for Products Page */
 
 div.card {
@@ -65,8 +67,38 @@ div.card {
   text-align: center;
   background-color: lightblue;
   font-family: Helvetica, Arial, sans-serif;
+=======
+/* About Styling */
+
+.about_h1 {
+  text-align: center;
 }
 
+.about_p {
+  font-size: 1.2rem;
+  text-align: justify;
+  padding: 0 1rem;
+}
+
+/* Contact Styling */
+
+.article_par {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.contact_h1 {
+  text-align: center;
+>>>>>>> gs_css_list_2
+}
+
+.contact_ul {
+  padding: 1rem;
+  margin: 0 auto;
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.1rem;
+}
 
 /* Footer */
 
