@@ -56,6 +56,10 @@ article {
 
 /* Card for Products Page */
 
+div.mid {
+  text-align: center;
+}
+
 div.card {
   width: 30%;
   height: auto;
@@ -66,6 +70,7 @@ div.card {
   text-align: center;
   background-color: lightblue;
   font-family: Helvetica, Arial, sans-serif;
+}
 
 /* About Styling */
 
@@ -79,6 +84,13 @@ div.card {
   padding: 0 1rem;
 }
 
+.p_header {
+  font-size:1.2rem;
+  font-weight: bolder;
+}
+
+
+
 /* Contact Styling */
 
 .article_par {
@@ -88,7 +100,6 @@ div.card {
 
 .contact_h1 {
   text-align: center;
->>>>>>> gs_css_list_2
 }
 
 .contact_ul {
